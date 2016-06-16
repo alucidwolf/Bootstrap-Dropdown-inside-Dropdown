@@ -2,7 +2,7 @@
 Brief example showing how some javascript can you provide you with the opportunity to create a form inside of a dropdown using bootstrap and some additional javascript
 
 ##HTML
-###make sure to include bootstrap CSS and Javascript, whether it be locally, through CDN, etc.
+###Make sure to include bootstrap CSS and Javascript, whether it be locally, through CDN, etc.
 ```
 <!DOCTYPE html>
 <html lang="en">
