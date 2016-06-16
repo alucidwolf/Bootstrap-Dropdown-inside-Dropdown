@@ -2,6 +2,7 @@
 Brief example showing how some javascript can you provide you with the opportunity to create a form inside of a dropdown using bootstrap and some additional javascript
 
 ##HTML
+###make sure to include bootstrap CSS and Javascript, whether it be locally, through CDN, etc.
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -10,11 +11,16 @@ Brief example showing how some javascript can you provide you with the opportuni
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dropdown inside dropdown</title>
+  
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"></head>
+  
 <body>
   <div class="col-xs-12">
     <h1>Dropdown inside dropdown</h1>
+    
+    <!-- Start copying here -->
+    
     <ul>
       <li class="dropdown bd-dropdown">
         <a href="javascript:;" class="dropdown-toggle">My dropdown inside dropdown list</a>
@@ -59,6 +65,9 @@ Brief example showing how some javascript can you provide you with the opportuni
         </div>
       </li>
     </ul>
+    
+    <!-- STOP copying here -->
+    
   </div>
   <div class="col-xs-12">
     <h1>Content below the dropdown</h1>
@@ -70,6 +79,7 @@ Brief example showing how some javascript can you provide you with the opportuni
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<!-- Bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
@@ -78,6 +88,7 @@ Brief example showing how some javascript can you provide you with the opportuni
 
 ##Javascript
 ```
+//Copy all of this
       $(document).ready(function(){
         $('li.dropdown.bd-dropdown a').on('click', function(event){
           $(this).parent().toggleClass("open");
