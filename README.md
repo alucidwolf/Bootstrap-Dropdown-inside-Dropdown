@@ -1,6 +1,9 @@
 # Bootstrap-Dropdown-inside-Dropdown
 Brief example showing how some javascript can you provide you with the opportunity to create a form inside of a dropdown using bootstrap and some additional javascript
 
+##Fiddle
+<iframe width="100%" height="300" src="//jsfiddle.net/theBDank/dh95wfrf/2/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 ##HTML
 ###Make sure to include bootstrap CSS and Javascript, whether it be locally, through CDN, etc.
 ```
